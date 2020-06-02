@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+body{
+  padding:10px;
+}
+.select {
+  display: inline-block;
+  width:14px;
+  height:14px;
+  border:1px solid gray;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+.selected {
+  display: inline-block;
+  width:14px;
+  height:14px;
+  border-radius: 3px;
+  margin-left: 20px;
+  border:1px solid gray;
+  background-image: url(./select.png);
+  background-size: 14px 14px;
+}
+.allSelect {
+  display: inline-block;
+  width:14px;
+  height:14px;
+  border:1px solid gray;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+.allSelected {
+  display: inline-block;
+  width:14px;
+  height:14px;
+  border-radius: 3px;
+  margin-left: 20px;
+  border:1px solid gray;
+  background-image: url(./select.png);
+  background-size: 14px 14px;
+}
+.imgBox {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+}
+.imgBox span {
+  position: absolute;
+  left:-10px;
+  top:10px;
+  background-color: white;
+}
